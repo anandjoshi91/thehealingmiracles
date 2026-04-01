@@ -268,15 +268,7 @@ a:hover {
 }
 
 .hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="%237C9A92" stroke-width="0.5" opacity="0.3"/><circle cx="50" cy="50" r="30" fill="none" stroke="%23B8A9C9" stroke-width="0.5" opacity="0.3"/><circle cx="50" cy="50" r="20" fill="none" stroke="%23E8B4BC" stroke-width="0.5" opacity="0.3"/></svg>') center/400px repeat;
-  opacity: 0.5;
-  animation: float 20s ease-in-out infinite;
+  display: none;
 }
 
 @keyframes float {
@@ -547,10 +539,7 @@ a:hover {
 }
 
 .about-image-placeholder::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="white" stroke-width="0.5" opacity="0.3"/></svg>') center/200px repeat;
+  display: none;
 }
 
 .floating-badge {
